@@ -36,7 +36,7 @@ export default function CommentsSection({ postId }) {
 
           return (
             <div key={comment.id} className="flex items-start space-x-3 border-b pb-2">
-              <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center font-semibold">
+              <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center font-semibold">
                 {avatarLetter}
               </div>
               <div>
